@@ -23,4 +23,29 @@ public class ShippingCosts {
      */
 
 
+    public static void main(String[] args) {
+
+        double itemWeight = 5.6;
+        int milesShipped = 345;
+        double shippingRate;
+        double cost;
+
+        if(itemWeight >= 10) {
+            shippingRate = 4.80;
+        }else{
+            if (itemWeight >= 6) {
+            }else{
+            }
+
+    }
+ public static double cost(double rate, int miles){
+
+        int costMutiplier = miles/100;
+        if (costMutiplier == 0 ){
+            costMutiplier = 1;
+
+        }
+ return rate * costMutiplier;
+    }
+
 }
